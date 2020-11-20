@@ -2,11 +2,11 @@
 
 <ul>
         <li>jQuery Essentials</li>
-        <li>Seletores e Filtros</li>
-        <li>Manipuladores</li>
-        <li>Atravessadores</li>
-        <li>Eventos</li>
-        <li>Efeitos</li>
-        <li>Plugins e Funções</li>
-        <li>AJAX e JSON</li>
+        <li>Selectors and Filters</li>
+        <li>Handlers</li>
+        <li>Middlemen</li>
+        <li>Events</li>
+        <li>Effects</li>
+        <li>Plugins and Functions</li>
+        <li>AJAX and JSON</li>
 </ul>
