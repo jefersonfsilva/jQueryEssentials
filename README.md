@@ -12,4 +12,4 @@
 </ul>
 
 <hr>
-Version jQuery: v3.5.1
+jQuery v3.5.1
