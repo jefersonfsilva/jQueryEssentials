@@ -24,12 +24,12 @@ $(function () {
         var data = new Date();
         $(".date").remove();
         $(this).parents("div:last").append("<div class='date'>" + data.getUTCDate() + "/" + data.getUTCMonth() + "/" + data.getUTCFullYear() + "</div>");
-        
+
         console.log($(this).parents());
     });
-    
-    $("b").closest("p").css("border-top","1px solid #09f");
-    
+
+    $("b").closest("p").css("border-top", "1px solid #09f");
+
     console.log($(".a").parents(".article"));
     console.log($(".a").parentsUntil(".article"));
     console.log($(".a").parentsUntil("body", "article"));

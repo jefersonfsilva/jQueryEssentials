@@ -24,7 +24,7 @@ $(function () {
     //add/remove class
     $("div").on("click", function () {
         //$(this).toggleClass("add");
-        
+
         if ($(this).hasClass("add")) {
             $(this).removeClass("add");
             $(this).find("p").slideUp();

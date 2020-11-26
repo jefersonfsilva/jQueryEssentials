@@ -19,6 +19,6 @@
 //        $j(".jquery_essentials").html("jQuery Depois de outra Lib!");
 //});
 
-$(function(){
-        $(".jquery_essentials").html("jQuery Essentials!");
+$(function () {
+    $(".jquery_essentials").html("jQuery Essentials!");
 });

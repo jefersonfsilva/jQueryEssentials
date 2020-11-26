@@ -29,7 +29,7 @@ $(function () {
     //replace element
     var href = $(".e").text();
     $(".e").replaceWith("<p><a target='_blank' href='https://" + href + "'>" + href + "</a></p>");
-    
+
     //replace all
     $("<p>#BoraProgramar</p>").replaceAll("p");
 });

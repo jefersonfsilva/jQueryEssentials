@@ -1,7 +1,7 @@
 $(function () {
     var input = $("input");
     var textarea = $("textarea");
-    
+
     //KEYPRESS | KEYDOWN
     input.keypress(function (e) {
         console.log("PRESS: " + e.which);
@@ -21,7 +21,7 @@ $(function () {
     }).keyup(function () {
         console.log("UP");
     });
-    
+
     //KEYUP
     $("input").on("keyup", function (e) {
         var input = $(this);
@@ -43,13 +43,13 @@ $(function () {
             $(".result div").html("<p>" + textarea.val().replace(/\n/g, "</p><p>") + "</p>");
         }
     });
-    
+
     //RESIZE
     $(window).resize(function (event) {
         console.log($(this).outerWidth());
         //console.log(event);
     });
-    
+
     //SCROLL
     $("body").height(1500);
     $(window).scroll(function (event) {
