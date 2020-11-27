@@ -10,20 +10,22 @@ usleep(400000);
 
 switch ($action) {
     case 'create_user':
+        //debug
         //$response = $post;
 
         if (in_array("", $post)) {
-            $response["error"] = "É precisso informar todos os dados.";
+            $response["error"] = "É preciso informar todos os dados.";
         } elseif (!filter_var($post['email'], FILTER_VALIDATE_EMAIL)) {
             $response["error"] = "Informe um e-mail válido.";
         } else {
             $user = new stdClass();
-            $user->fisrs_name = $response['first_name'];
-            $user->last_name = $response['last_name'];
-            $user->email = $response['email'];
+            $user->first_name = $post['first_name'];
+            $user->last_name = $post['last_name'];
+            $user->email = $post['email'];
 
             //rotina de cadastro
-            $response['user'] = $user;
+            $response['first_name'] = $user->first_name;
+            //$response['redirect'] = "http://localhost/jquery_essentials/08-ajax/04-refinado.html";
         }
         break;
 }
